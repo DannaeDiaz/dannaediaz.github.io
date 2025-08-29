@@ -194,16 +194,16 @@ h6 {
 .header .social-links {
   display: flex;
   justify-content: space-evenly;
+  padding: 2rem;
 }
 
 .header .social-links a {
-  font-size: 16px;
+  font-size: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: var(--default-color); 
-  background: color-mix(in srgb, var(--accent-color), transparent 85%);
-  margin: 0 2px;
+  color: color-mix(in srgb, var(--accent-color), transparent 65%);
+  margin: 0;
   border-radius: 50%;
   text-align: center;
   width: 40px;
