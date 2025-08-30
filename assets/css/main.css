@@ -154,7 +154,7 @@ h6 {
 --------------------------------------------------------------*/
 .home.hide-this{
   width: auto;
-  height: 100vh;
+  height: 60vh;
 }
 
 .header {
@@ -403,7 +403,7 @@ h6 {
 #preloader:before {
   content: "";
   position: fixed;
-  top: calc(50% - 30px);
+  top: calc(70% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #ffffff;
   border-color: var(--accent-color) transparent var(--accent-color) transparent;
