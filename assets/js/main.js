@@ -225,5 +225,28 @@
   }
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
+  
+  const header = document.getElementById("header");
+  const hero = document.getElementById("hero");
+  const home = document.getElementById("welcome");
+  const main = document.querySelector("main");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    header.classList.add("collapsed");
+    hero.classList.add("shrink");
+    main.classList.add("shifted");
+  } else {
+    header.classList.remove("collapsed");
+    hero.classList.remove("shrink");
+    main.classList.remove("shifted");
+  }
+});
+
+  home.addEventListener("click", () => {
+    header.classList.remove("collapsed");
+    hero.classList.remove("shrink");
+    main.classList.remove("shifted");
+  });
 
 })();
