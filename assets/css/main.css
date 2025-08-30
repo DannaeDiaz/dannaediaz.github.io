@@ -601,18 +601,31 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 70px;
   font-weight: 700;
 }
 
-.hero p {
+.hero p{
   margin: 5px 0 0 0;
+}
+
+.hero .subtitle-p {
+  font-weight: 400; 
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.hero .typed-p {
   font-size: 26px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .hero p span {
+  font-size: 26px;
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
+  font-weight: 500;
 }
 
 .hero .social-links {
@@ -634,10 +647,14 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 48px;
   }
 
-  .hero p {
+  .hero .subtitle-p {
+    font-size: 18px;
+  }
+  .hero .typed-p,
+  .hero p span {
     font-size: 20px;
   }
 }
